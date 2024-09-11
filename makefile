@@ -3,7 +3,7 @@
 CC = gcc
 CFLAGS = -Wall -Wextra -std=c11
 TARGET = ctorch.out
-SRC = 
+SRC = tensor.c test.c
 OBJ = $(SRC:.c=.o)
 
 $(TARGET): $(OBJ)
