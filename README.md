@@ -3,9 +3,9 @@
 ## Description
 A very simple C version of the [pytorch Python package](https://github.com/pytorch/pytorch)
 
-It provides:
-- Tensor computation (without GPU acceleration
-- Deep neural networks built on a tape-based autograd system
+## Features
+- Tensor computation (without GPU acceleration)
+- Module methods to create a simple neural network for AI models
 
 ## Installation
 1. Clone the repo: `git clone https://github.com/mp3skater/ctorch.git`
