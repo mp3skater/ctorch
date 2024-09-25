@@ -22,7 +22,7 @@ LinearModel *create_model(int num_features) {
     return model;
 }
 
-// Predict the target value (e.g., salary) using the model
+// Predict the target value (the salary) using the model
 double predict(LinearModel *model, DataPoint data) {
     double prediction = model->coefficients[0]; // Start with b0 (intercept)
     for (int i = 0; i < model->num_features; i++) {

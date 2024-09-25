@@ -13,7 +13,7 @@ int main() {
 
     // Test 2: Fill the tensor with a value
     printf("\nFilling tensor with value 5.0...");
-    fill_tensor(&tensor, 5.0);
+    fill_tensor(&tensor, 6.0);
     print_tensor(&tensor);
 
     // Test 3: Free tensor memory
