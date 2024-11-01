@@ -4,7 +4,8 @@
 
 ---
 
-A simple implementation of some functions used for AI dev.
+A simple implementation of some functions that can be used for AI development like linear regression, a data-parser and a minimal tensor implementation.
+
 Inspired by the [pytorch Python package](https://github.com/pytorch/pytorch), definetly also the name :)
 
 ## Features
