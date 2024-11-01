@@ -1,18 +1,23 @@
-# Ctorch
+<div align="center">
+  <img src="logo.svg" width="600" alt="Logo"/>
+</div>
+
+---
 
 A simple implementation of some functions used for AI dev.
-Inspired by the [pytorch Python package](https://github.com/pytorch/pytorch), also the name
+Inspired by the [pytorch Python package](https://github.com/pytorch/pytorch), definetly also the name :)
 
 ## Features
-- Tensor computation (without GPU acceleration)
-- CSV file parser
-- Module methods to use linear regression
-- Examples for all modules
+- Small tensor module
+- Module methods to use linear regression with:
+  - CSV file parser
+  - Examples implementation
 
 ## Installation
 1. Navigate to the folder to hold the code: `cd disired/path/here`
 2. Clone the repo: `git clone https://github.com/mp3skater/ctorch.git`
-Info: cmake and gcc need to be installed
+
+Info: cmake and gcc need to be installed, more info [here](https://www3.ntu.edu.sg/home/ehchua/programming/cpp/gcc_make.html)
 
 ## Usage
 #### For the main module
@@ -24,4 +29,4 @@ Info: cmake and gcc need to be installed
 2. To execute write: `make tensor`
 
 ## License
-This project is licensed under the MIT License - see the LICENSE.md file for details.
+This project is licensed under the [MIT License](LICENSE.md)
